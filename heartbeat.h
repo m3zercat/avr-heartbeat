@@ -4,6 +4,8 @@
 #ifndef _HEARTBEAT_H_
 #define _HEARTBEAT_H_
 
+#include <Arduino.h>
+
 class Heartbeat {
     private:
         unsigned long nextMillis = 0;
